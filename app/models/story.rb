@@ -1,4 +1,5 @@
 class Story < ApplicationRecord
+  belongs_to :user
   attribute :is_published, :boolean
   validates :name, :link, presence: true
   has_many :votes do
