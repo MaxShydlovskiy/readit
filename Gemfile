@@ -23,7 +23,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 gem "bootsnap", require: false
 
-# gem "sassc-rails"
+gem "sassc-rails"
 
 
 group :development, :test do
